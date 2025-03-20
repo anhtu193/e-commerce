@@ -1,0 +1,15 @@
+// Add this file for path aliasing @ for src folder
+{
+	"compilerOptions": {
+		// for auto import
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"jsx": "preserve",
+		"checkJs": true,
+		// for path aliasing
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	}
+}
